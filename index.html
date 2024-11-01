@@ -4,8 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <center>
+    <!-- Navigation Bar -->
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </nav>
   
+    <!-- Title -->
+      <h1>IT Team Members</h1>
+    <!-- Add New Member -->
+     <section class="card">
+      <h2>Add New Member</h2>
+      <form>
+        <label>
+          <p>First Name</p>
+          <input type="text" placeholder="Paloma">
+          <p>Last Name</p>
+          <input type="text" placeholder="Ramos">
+          <p>Role</p>
+          <input type="text" placeholder="Developer">
+          <p>Email</p>
+          <input type="text" placeholder="email@email.com">
+        </label>
+          <br>
+          <button type="submit">Add Member</button>
+      </form>
+    </section>
+    <!-- Team Members -->
+      <h2>Team Members</h2>
+      <table border="1">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last Name</th>
+                <th>Role</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paloma</td>
+            <td>Ramos</td>
+            <td>Developer</td>
+            <td>Paloma@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+            <td>Designer</td>
+            <td>test@gmail.com</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>Tester</td>
+            <td>test@gmail.com</td>
+        </tr>
+        </tbody>
+    </table> 
+  </center>
 </body>
 </html>
